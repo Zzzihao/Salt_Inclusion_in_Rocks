@@ -22,8 +22,6 @@ The matlab code can be calculated by the supercomputer Sherlock, 'runcode.sbatch
 'createGUI.m' is a code to create a parameter input interface, which can visualize the input parameters to an input interface.
 <img src="matlab/Interface.JPG" width="200">
 
-![](matlab/Interface.JPG)
-
 
 # The folder 'julia'
 The Julia code has been parallelized based on the matlab codes. The parallel julia code only considers salt as a viscous material, and does not use the MD model to calculate the change in strain caused by the creep. The change in strain caused by the creep can be calculated by modifying the function in the pseudo-transient loop. When using grid computing, Julia code uses the package code 'ParallelStencil.jl'. You can read the code of the package via this link:
