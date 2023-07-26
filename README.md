@@ -17,7 +17,9 @@ Matlab code can be debugged and plotted more conveniently. The codes 'Stokes2D.m
 
 The role of the functions 'X_mean.m', 'Z_mean.m', 'XZ_mean.m', 'XY_mean3D.m', 'XZ_mean3D.m', 'YZ_mean3D.m', 'XYZ_mean3D.m' are the same as that of the package 'ParallelStencil.jl' in the julia code. The main functions are 'SaltInclusion2D.m' and 'SaltInclusion3D.m', and these matlab codes are not parallelized, so the computational time is relatively long.
 
-The matlab code can be calculated by the supercomputer Sherlock, Runcode.sbatch is a script that uses cpu to run the code. 
+The matlab code can be calculated by the supercomputer Sherlock, 'runcode.sbatch' is a script that uses cpu to run the code. 
+
+'createGUI.m' is a code to create a parameter input interface, which can visualize the input parameters to an input interface.
 
 # The folder 'julia'
 The Julia code has been parallelized based on the matlab codes. The parallel julia code only considers salt as a viscous material, and does not use the MD model to calculate the change in strain caused by the creep. The change in strain caused by the creep can be calculated by modifying the function in the pseudo-transient loop. When using grid computing, Julia code uses the package code 'ParallelStencil.jl'. You can read the code of the package via this link:
