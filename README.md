@@ -7,6 +7,11 @@ Since the results were not published in any papers, some documents have not been
 # The folder 'literature'
 This folder includes references related to natural hydrocarbon seepage, including observation of natural hrdrocarbon seepage, well logging data and seismic imaging, porosity wave model, creep behavior of salt, etc. 
 
+# The folder 'SeepageVideo'
+The files in this folder show the natural hydrocarbon seepage process, these videos are recorded by cameras.
+Video Source:
+Wang, Binbin, Scott A. Socolofsky, John A. Breier, and Jeffrey S. Seewald. "Observations of bubbles in natural seep flares at MC 118 and GC 600 using in situ quantitative imaging." Journal of Geophysical Research: Oceans 121, no. 4 (2016): 2203-2230.
+
 # The folder 'matlab'
 Matlab code can be debugged and plotted more conveniently. The codes 'Stokes2D.m' and 'Stokes3D.m' are modified on the basis of FASTICE to simulate the stress distribution of one material under the in-situ geostress. The suffix 2D indicates that the simulation region is two-dimensional, and the suffix 3D indicates that the simulation region is three-dimensional.
 
