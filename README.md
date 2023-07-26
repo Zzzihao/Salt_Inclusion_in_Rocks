@@ -20,7 +20,7 @@ The role of the functions 'X_mean.m', 'Z_mean.m', 'XZ_mean.m', 'XY_mean3D.m', 'X
 The matlab code can be calculated by the supercomputer Sherlock, 'runcode.sbatch' is a script that uses cpu to run the code. 
 
 'createGUI.m' is a code to create a parameter input interface, which can visualize the input parameters to an input interface.
-![](matlab/interface.JPG)
+![](matlab/Interface.JPG)
 
 
 # The folder 'julia'
