@@ -13,7 +13,9 @@ Video Source:
 Wang, Binbin, Scott A. Socolofsky, John A. Breier, and Jeffrey S. Seewald. "Observations of bubbles in natural seep flares at MC 118 and GC 600 using in situ quantitative imaging." Journal of Geophysical Research: Oceans 121, no. 4 (2016): 2203-2230.
 
 # The folder 'matlab'
-Matlab code can be debugged and plotted more conveniently. The codes 'Stokes2D.m' and 'Stokes3D.m' are modified on the basis of FASTICE to simulate the stress distribution of one material under the in-situ geostress. The suffix 2D indicates that the simulation region is two-dimensional, and the suffix 3D indicates that the simulation region is three-dimensional. The folder "BrewerMap-master" contains matlab functions that can be used to change the color of the colorbar.
+Matlab code can be debugged and plotted more conveniently. The codes 'Stokes2D.m' and 'Stokes3D.m' are modified on the basis of FASTICE to simulate the stress distribution of one material under the in-situ geostress. The suffix 2D indicates that the simulation region is two-dimensional, and the suffix 3D indicates that the simulation region is three-dimensional. 
+
+The matlab function "vtkwrite.m" is used to export a ".vtk" file that can be read by Paraview for visualization. The Paraview version I am using is 5.7. The folder "BrewerMap-master" contains matlab functions that can be used to change the color of the colorbar.
 
 The role of the functions 'X_mean.m', 'Z_mean.m', 'XZ_mean.m', 'XY_mean3D.m', 'XZ_mean3D.m', 'YZ_mean3D.m', 'XYZ_mean3D.m' are the same as that of the package 'ParallelStencil.jl' in the julia code. The main functions are 'SaltInclusion2D.m', 'SaltInclusion3D.m' and 'SaltInclusion2D_MD', these matlab codes are not parallelized, so the computational time is relatively long.
 
