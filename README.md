@@ -15,7 +15,7 @@ Wang, Binbin, Scott A. Socolofsky, John A. Breier, and Jeffrey S. Seewald. "Obse
 # The folder 'matlab'
 Matlab code can be debugged and plotted more conveniently. The codes 'Stokes2D.m' and 'Stokes3D.m' are modified on the basis of FASTICE to simulate the stress distribution of one material under the in-situ geostress. The suffix 2D indicates that the simulation region is two-dimensional, and the suffix 3D indicates that the simulation region is three-dimensional.
 
-The role of the functions 'X_mean.m', 'Z_mean.m', 'XZ_mean.m', 'XY_mean3D.m', 'XZ_mean3D.m', 'YZ_mean3D.m', 'XYZ_mean3D.m' are the same as that of the package 'ParallelStencil.jl' in the julia code. The main functions are 'SaltInclusion2D.m' and 'SaltInclusion3D.m', and these matlab codes are not parallelized, so the computational time is relatively long.
+The role of the functions 'X_mean.m', 'Z_mean.m', 'XZ_mean.m', 'XY_mean3D.m', 'XZ_mean3D.m', 'YZ_mean3D.m', 'XYZ_mean3D.m' are the same as that of the package 'ParallelStencil.jl' in the julia code. The main functions are 'SaltInclusion2D.m', 'SaltInclusion3D.m' and 'SaltInclusion2D_MD', these matlab codes are not parallelized, so the computational time is relatively long.
 
 The matlab code can be calculated by the supercomputer Sherlock, 'runcode.sbatch' is a script that uses cpu to run the code. 
 
