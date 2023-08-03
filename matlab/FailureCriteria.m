@@ -1,3 +1,6 @@
+% This code uses the Mohr-Coulomb fracture criterion to simply determine which areas are prone to fractures.
+% The fracture criterion parameter needs to be modified, its choice depends on the experiment and will affect the results.
+
 option = 2;
 % Symbol: Tension (positive) to compression (positive)
 Sxx = p_water-txx(2:end-1,2:end-1) + P(2:end-1,2:end-1);
